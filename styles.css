@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+li {
+    list-style: none;
+}
+ul {
+    margin-top: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+.saving_file_session {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+.saving-file-item {
+    width: 40%;
+    object-fit: cover;
+}
+.image img {
+    width: 100%;
+}
+.input-text h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.input-text p {
+    font-size: 19px;
+    margin: 20px 0;
+}
+.input-text a {
+    color: rgb(29, 141, 29);
+    text-underline-offset: 10px;
+}
+.file-button,
+.file-input {
+    padding: 9px 40px;
+    font-size: 17px;
+    margin: 0 6px;
+}
+.file-button {
+    background-color: rgb(105, 105, 224);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.review-session {
+    padding-bottom: 5rem;
+    background-color: rgb(237, 236, 236);
+}
+.reviewer-box {
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 18px;
+    width: 80%;
+    box-shadow: 0px 2px 37px -7px rgba(0, 0, 0, 0.75);
+}
+.quot {
+    background-color: red;
+}
+.avatar-session {
+    display: flex;
+    line-height: 2px;
+    align-items: center;
+}
+.avatar-session p,
+.avatar-session h3 {
+    font-size: 10px;
+    line-height: 0rem;
+    margin: 15px 0;
+}
+.review-item-image {
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.review-item-image img {
+    width: 100%;
+    height: 100%;
+}
+.get-started {
+    display: flex;
+    height: 20rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(113, 113, 136);
+    color: white;
+}
+.get-started-item {
+    width: 38%;
+    font-size: 19px;
+}
+.get-started-item:nth-child(2) input,
+.get-started-item:nth-child(2) button {
+    display: block;
+    margin: 20px 0;
+    padding: 9px 40px;
+}
+.get-started-item:nth-child(2) input {
+    width: 80%;
+}
+.get-started-item:nth-child(2) button {
+    background-color: rgb(105, 105, 224);
+    border: none;
+    color: white;
+}
+
+footer {
+    padding: 30px 10rem;
+    margin: 0 auto;
+    background-color: rgb(28, 28, 111);
+    color: white;
+}
+footer .logo {
+    width: 100px;
+}
+footer .logo img {
+    width: 100%;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-details li {
+    margin: 10px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.author{
+    display: block;
+    margin-top: 70px;
+    font-size: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .saving_file_session {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image {
+        order: 1;
+    }
+    .input-text {
+        order: 2;
+        text-align: center;
+    }
+    .saving-file-item {
+        width: 90%;
+    }
+    .input-text p {
+        font-size: 19px;
+    }
+    .input-text h2 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .file-button {
+        width: 86%;
+        margin-top: 20px;
+    }
+    nav ul li {
+        margin: 0 4px;
+    }
+    nav .logo {
+        width: 70px;
+    }
+    nav ul {
+        margin-top: 3px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .review-text {
+        text-align: left;
+    }
+    .review-text h2 {
+        font-size: 17px;
+    }
+    .review-text p {
+        font-size: 16px;
+    }
+    .avatar-session p,
+    .avatar-session h3 {
+        font-size: 9px;
+    }
+    .get-started {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-started-item {
+        width: 80%;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .get-started-item:nth-child(2) input,
+    .get-started-item:nth-child(2) button {
+        width: 80%;
+        margin: 5px 0;
+    }
+    .get-started-item:nth-child(2) {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviewer-box {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .contact-details {
+        flex-direction: column;
+    }
+    footer {
+        padding: 40px 7rem;
+        
+    }
+}
