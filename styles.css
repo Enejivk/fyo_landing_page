@@ -151,7 +151,7 @@ footer a:hover {
     text-decoration: underline;
     text-underline-offset: 10px;
 }
-.author{
+.author {
     display: block;
     margin-top: 70px;
     font-size: 10px;
@@ -180,8 +180,11 @@ footer a:hover {
         line-height: 37px;
     }
     .file-button {
-        width: 86%;
         margin-top: 20px;
+    }
+    .file-button,
+    .file-input {
+        width: 80%;
     }
     nav ul li {
         margin: 0 4px;
@@ -240,6 +243,5 @@ footer a:hover {
     }
     footer {
         padding: 40px 7rem;
-        
     }
 }
